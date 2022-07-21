@@ -1,0 +1,35 @@
+/* Estructura principal input (ingreso de tareas)*/
+.tarea-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tarea-input {
+    width: 350px;
+    font-size: 15px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #1b1b56;
+    outline: none;
+
+}
+
+.tarea-boton {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #d0d0d5;
+    color:#1b1b56;
+    text-transform: capitalize;
+}
+
+.tarea-boton:hover {
+    transform: scale(1.1);
+}
